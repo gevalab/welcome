@@ -1,0 +1,9 @@
+\begin{thebibliography}{}
+
+\bibitem[Chacon and Straub, 2014]{ProGit}
+Chacon, S. and Straub, B. (2014).
+\newblock {\em {Pro Git}}.
+\newblock Apress, second edition.
+\newblock \url{https://git-scm.com/book/en/v2}.
+
+\end{thebibliography}

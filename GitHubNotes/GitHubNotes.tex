@@ -1,0 +1,117 @@
+\documentclass[12pt, letterpaper]{article} 	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}    		% See geometry.pdf to learn the layout options. There are lots.
+	
+\geometry{letterpaper}
+\setlength{\parindent}{0pt}
+\setlength{\voffset}{0in}  
+%\setlength{\headsep}{0pt}
+\setlength{\footskip}{0.75in}  		 
+%\geometry{landscape}    		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip} 		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage[skipabove = 0.2in, skipbelow = 0.2in]{mdframed}
+	\mdfdefinestyle{inception}{skipabove = -0.1in, skipbelow = 0.1in, , innertopmargin=-0.2in}
+\usepackage{times}	
+\usepackage{amsmath,amssymb}
+\usepackage{mathtools}
+\usepackage{accents}
+\usepackage{setspace}
+\usepackage{breqn}
+\usepackage[makeroom]{cancel}
+\usepackage{booktabs}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{empheq}
+\usepackage[unicode=true, colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\urlstyle{same}
+\usepackage[english]{cleveref}
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage{multicol}
+\usepackage{enumitem}
+	\setlist{nosep}
+\usepackage{scrextend}
+\usepackage[none]{hyphenat}
+\usepackage{changes}
+\definecolor{umichBlue}{cmyk}{1, .6 , 0, .6}
+\definecolor{umichMaize}{cmyk}{0, .18, 1, 0}
+
+\usepackage[super,numbers,compress]{natbib}
+\bibliographystyle{apalike}
+
+\newlength{\dhatheight}
+\newcommand{\dhat}[1]{%
+	\settoheight{\dhatheight}{\ensuremath{\hat{#1}}}%
+	\addtolength{\dhatheight}{-0.2ex}%
+	\hat{\vphantom{\rule{1pt}{\dhatheight}}%
+	\smash{\hat{#1}}}}
+
+
+\setlength\fboxrule{0.08em}
+\newcommand*{\boxedcolor}{umichBlue}
+\makeatletter
+\renewcommand{\boxed}[1]{\textcolor{\boxedcolor}{%		%if I box things, this turns the box to blue
+  \fbox{\normalcolor\m@th$\displaystyle#1$}}}
+\makeatother
+
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+
+%\DeclareMathSizes{12}{14}{10}{10}
+
+\linespread{1.2}
+\newcommand*{\Resize}[2]{\resizebox{#1}{!}{$#2$}}
+
+\newcommand{\twqq}[0]{\qquad \qquad}
+\newcommand{\thqq}[0]{\qquad \qquad \qquad}
+\newcommand{\fqq}[0]{\qquad \qquad \qquad \qquad}
+\newcommand{\nq}[0]{\mkern-18mu}
+\newcommand{\nqq}[0]{\mkern-36mu}
+\newcommand{\ntwqq}[0]{\mkern-72mu}
+\newcommand{\tbf}[1]{\textbf{#1}}
+\newcommand{\mbf}[1]{\mathbf{#1}}
+
+\title{\Huge GitHub Notes}
+\author{Ellen Mulvihill \\ Created 6/29/18}
+%\date{}
+%\affiliation{University of Michigan}
+%SetFonts							
+\begin{document}
+\maketitle
+\tableofcontents
+\clearpage
+
+%%%%%%%%%%%%%%%%
+\section{Introduction}
+%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%
+\section{Getting Started}
+%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%
+\subsection{Short Version}
+%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%
+\subsection{Long Version}
+%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%
+\section{Notes}
+%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%
+\subsection{Resources}
+%%%%%%%%%%%%%%
+The Pro Git book by Scott Chacon and Ben Straub\cite{ProGit}: \url{https://git-scm.com/book/en/v2}.
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+\subsection{List of Common Commands}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\bibliography{GitHubNotes}
+\addcontentsline{toc}{section}{References}
+
+\end{document}
