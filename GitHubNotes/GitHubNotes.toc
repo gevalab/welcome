@@ -1,8 +1,14 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}
 \contentsline {section}{\numberline {2}Getting Started}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1}Short Version}{2}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Long Version}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.1}Downloading and Installing git}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Short Version}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Long Version}{2}{subsection.2.3}
 \contentsline {section}{\numberline {3}Notes}{2}{section.3}
 \contentsline {subsection}{\numberline {3.1}Resources}{2}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}List of Common Commands}{2}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Merge Conflicts}{2}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Branching}{2}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Forking: Copying Public Code}{2}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}List of Common Errors}{2}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Detached Head}{2}{subsubsection.3.6.1}
 \contentsline {section}{References}{3}{section*.2}
